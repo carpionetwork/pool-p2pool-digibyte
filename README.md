@@ -6,11 +6,11 @@
 
 * Ensure the file (digibyte.conf) exists in your digibyted blockchain directory prior to launching digibyted.
 		
-		`Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)`
+		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
 		
-		`Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)`
+		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
 		
-`contents of digibyte.conf:`
+`Contents of digibyte.conf:`
 
 		server=1
 		rpcuser=USERNAME
