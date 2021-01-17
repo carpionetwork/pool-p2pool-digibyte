@@ -2,7 +2,7 @@
 
 *** Initially download the digibyte blockchain from http://cryptochainer.com/dir/
 
-* Digibyte blockchain download: http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip
+* Digibyte blockchain download: `wget -c http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip`
 
 * Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
@@ -75,13 +75,12 @@ To use P2Pool, you must be running your own local digibyted. For standard config
 		pypy run_p2pool.py --net digibyte
 		
 To make your node accessible from the internet, open the following ports on your router (both the worker port and peer-2-peer port): 
-* Worker Port = 5025
-* Peer-2-Peer Port = 5024
+* Worker Port = `5025`
+* Peer-2-Peer Port = `5024`
 * Confirm ports are listening: `netstat -na | egrep '5024|5025'` 
 
-Run for additional options:
+Run for additional options: `pypy run_p2pool.py --help`
 
-		pypy run_p2pool.py --help
 
 Donations towards further development:
 -------------------------
