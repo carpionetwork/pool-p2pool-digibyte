@@ -1,4 +1,5 @@
 ***Pool modified for Digibyte coin.***
+
 *** Initially download the digibyte blockchain from http://cryptochainer.com/dir/
 
 Digibyte blockchain download:
