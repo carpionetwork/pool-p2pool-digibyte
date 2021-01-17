@@ -4,10 +4,7 @@
 
 * Digibyte blockchain download: http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip
 
-*** Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
-
-
-For the experienced p2pool setup follow the guide below:
+* Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
 
 P2pool installation with pypy -- Linux
