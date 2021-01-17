@@ -26,9 +26,7 @@
 		deprecatedrpc=accounts
 		prune=550
 		
-		
-		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
-		
+		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)		
 		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
 		
 * Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
