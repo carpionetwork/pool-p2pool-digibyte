@@ -8,6 +8,7 @@
 		
 * `Contents of digibyte.conf:`
 
+		# START
 		server=1
 		rpcuser=USERNAME
 		rpcpassword=PASSWORD
@@ -25,6 +26,7 @@
 		port=12026
 		deprecatedrpc=accounts
 		prune=550
+		# END
 		
 		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)		
 		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
