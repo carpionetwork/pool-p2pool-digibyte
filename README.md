@@ -34,6 +34,7 @@
 * Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
 
+
 P2pool installation with pypy -- Linux
 ---------------------------------------
 
