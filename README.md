@@ -40,6 +40,7 @@ P2pool installation with pypy -- Linux
 
 Copy and paste the following commands one paragraph at a time into a bash shell in order to install p2pool on Linux.
 
+		>=4GB of RAM recommended
 
 		sudo apt-get update
 
