@@ -5,8 +5,8 @@
 * Digibyte blockchain download: `wget -c http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip`
 
 * Ensure the file (digibyte.conf) exists in your digibyted blockchain directory prior to launching digibyted.
-		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
-		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
+		`Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)`
+		`Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)`
 		
 `contents of digibyte.conf:`
 
