@@ -4,6 +4,29 @@
 
 * Digibyte blockchain download: `wget -c http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip`
 
+* Ensure the file (digibyte.conf) exists in your digibyted blockchain directory prior to launching digibyted.
+		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
+		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
+		
+`contents of digibyte.conf:
+		server=1
+		rpcuser=USERNAME
+		rpcpassword=PASSWORD
+		algo=skein
+		listenonion=0
+		listen=1
+		daemon=1
+		gen=0
+		onlynet=IPv4
+		rpcworkqueue=32
+		rpcthreads=96
+		rpcallowip=127.0.0.1
+		rpcbind=127.0.0.1
+		rpcport=14024
+		port=12026
+		deprecatedrpc=accounts
+		prune=550`
+		
 * Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
 
@@ -45,27 +68,7 @@ Copy and paste the following commands one paragraph at a time into a bash shell 
 		cd ..
 		cd litecoin_scrypt
 		sudo pypy setup.py install    
-    
-	
-digibyte.conf
-	
-		server=1
-		rpcuser=USERNAME
-		rpcpassword=PASSWORD
-		algo=skein
-		listenonion=0
-		listen=1
-		daemon=1
-		gen=0
-		onlynet=IPv4
-		rpcworkqueue=32
-		rpcthreads=96
-		rpcallowip=127.0.0.1
-		rpcbind=127.0.0.1
-		rpcport=14024
-		port=12026
-		deprecatedrpc=accounts
-		prune=550
+
 
 Running P2Pool:
 -------------------------
