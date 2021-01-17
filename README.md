@@ -8,7 +8,7 @@
 		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
 		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
 		
-`contents of digibyte.conf:
+`contents of digibyte.conf:`
 		server=1
 		rpcuser=USERNAME
 		rpcpassword=PASSWORD
@@ -25,7 +25,7 @@
 		rpcport=14024
 		port=12026
 		deprecatedrpc=accounts
-		prune=550`
+		prune=550
 		
 * Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
