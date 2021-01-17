@@ -2,27 +2,29 @@
 
 *** Initially download the digibyte blockchain from http://cryptochainer.com/dir/
 
-Digibyte blockchain download:
-http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip
+* Digibyte blockchain download: http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip
 
 *** Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
-For the experienced p2pool setup follow the guide bellow
+
+For the experienced p2pool setup follow the guide below:
 
 
 P2pool installation with pypy -- Linux
 ---------------------------------------
 
-Copy and paste the following commands one paragraph at a time into a bash shell in order to install p2pool on Windows or Linux.
+Copy and paste the following commands one paragraph at a time into a bash shell in order to install p2pool on Linux.
 
 
 		sudo apt-get update
 
 		sudo apt-get install pypy pypy-dev pypy-setuptools gcc build-essential git
 
+		cd /opt
 		wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo pypy
 		sudo rm setuptools-*.zip
 
+		cd /opt
 		wget https://pypi.python.org/packages/source/z/zope.interface/zope.interface-4.1.3.tar.gz#md5=9ae3d24c0c7415deb249dd1a132f0f79
 		tar zxf zope.interface-4.1.3.tar.gz
 		cd zope.interface-4.1.3/
@@ -30,6 +32,7 @@ Copy and paste the following commands one paragraph at a time into a bash shell 
 		cd ..
 		sudo rm -r zope.interface-4.1.3*
 
+		cd /opt
 		wget https://pypi.python.org/packages/source/T/Twisted/Twisted-15.4.0.tar.bz2
 		tar jxf Twisted-15.4.0.tar.bz2
 		cd Twisted-15.4.0
@@ -37,6 +40,7 @@ Copy and paste the following commands one paragraph at a time into a bash shell 
 		cd ..
 		sudo rm -r Twisted-15.4.0*
 
+		cd /opt
 		git clone https://github.com/farsider350/p2pool-dgb-scrypt-350.git
 		cd p2pool-dgb-scrypt-350
 		cd digibyte_subsidy
@@ -72,7 +76,7 @@ To use P2Pool, you must be running your own local digibyted. For standard config
 		For Zen Server
 		pypy run_p2pool.py --net digibyte
 		
-To make your node accessible from the internet, open the following ports on your router (both the worker port and peer-2-peer port please!): Worker Port = 5025; Peer-2-Peer Port = 5024
+To make your node accessible from the internet, open the following ports on your router (both the worker port and peer-2-peer port): Worker Port = 5025; Peer-2-Peer Port = 5024
 
 Run for additional options:
 
