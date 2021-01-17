@@ -6,10 +6,6 @@
 
 * Ensure the file (digibyte.conf) exists in your digibyted blockchain directory prior to launching digibyted.
 		
-		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
-		
-		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
-		
 * `Contents of digibyte.conf:`
 
 		server=1
@@ -29,6 +25,10 @@
 		port=12026
 		deprecatedrpc=accounts
 		prune=550
+		
+		Example directory path: (/opt/blockchain/digibyte/skein/.digibyte)
+		
+		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
 		
 * Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
