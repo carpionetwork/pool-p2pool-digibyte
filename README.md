@@ -1,24 +1,16 @@
 ***Pool modified for Digibyte coin.***
-***This p2pool is best installed using the p2pool-oneclick installer.***
+*** Initially download the digibyte blockchain from http://cryptochainer.com/dir/
 
+Digibyte blockchain download:
+http://147.135.10.45/blockchains/current/DigiByte_blockchain.zip
 
-		https://github.com/farsider350/p2pool-oneclick/blob/dgb-scrypt-merged/README.md
+*** Wait for the Digibyte daemon (digibyted) to be fully synced prior to launching p2pool.
 
 For the experienced p2pool setup follow the guide bellow
 
-P2pool installation with pypy -- Windows
---------------------------------------
 
-		On Windows, pypy is only supported via the Windows Subsystem for Linux (WSL). P2pool on pypy on WSL is much faster than P2pool on
-		CPython on native Windows. To install WSL, first follow the steps outlined here:
-
-		https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
-
-		Once you've done that, run bash and follow the rest of the steps below.
-
-
-P2pool installation with pypy -- Linux and Windows
--------------------------------------------------
+P2pool installation with pypy -- Linux
+---------------------------------------
 
 Copy and paste the following commands one paragraph at a time into a bash shell in order to install p2pool on Windows or Linux.
 
@@ -70,6 +62,7 @@ digibyte.conf
 		rpcport=14024
 		port=12026
 		deprecatedrpc=accounts
+		prune=550
 
 Running P2Pool:
 -------------------------
