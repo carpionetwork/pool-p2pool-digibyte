@@ -9,6 +9,7 @@
 		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
 		
 `contents of digibyte.conf:`
+
 		server=1
 		rpcuser=USERNAME
 		rpcpassword=PASSWORD
