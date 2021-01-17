@@ -53,9 +53,9 @@ Copy and paste the following commands one paragraph at a time into a bash shell 
 digibyte.conf
 	
 		server=1
-		rpcuser=user
-		rpcpassword=anything long
-		algo=scrypt
+		rpcuser=USERNAME
+		rpcpassword=PASSWORD
+		algo=skein
 		listenonion=0
 		listen=1
 		daemon=1
@@ -64,6 +64,7 @@ digibyte.conf
 		rpcworkqueue=32
 		rpcthreads=96
 		rpcallowip=127.0.0.1
+		rpcbind=127.0.0.1
 		rpcport=14024
 		port=12026
 		deprecatedrpc=accounts
