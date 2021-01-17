@@ -15,7 +15,7 @@ Copy and paste the following commands one paragraph at a time into a bash shell 
 
 		sudo apt-get update
 
-		sudo apt-get install pypy pypy-dev pypy-setuptools gcc build-essential git
+		sudo apt-get install pypy pypy-dev pypy-setuptools gcc build-essential git net-tools
 
 		cd /opt
 		wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo pypy
@@ -74,7 +74,10 @@ To use P2Pool, you must be running your own local digibyted. For standard config
 		For Zen Server
 		pypy run_p2pool.py --net digibyte
 		
-To make your node accessible from the internet, open the following ports on your router (both the worker port and peer-2-peer port): Worker Port = 5025; Peer-2-Peer Port = 5024
+To make your node accessible from the internet, open the following ports on your router (both the worker port and peer-2-peer port): 
+* Worker Port = 5025
+* Peer-2-Peer Port = 5024
+* Confirm ports are listening: `netstat -na | egrep '5024|5025'` 
 
 Run for additional options:
 
