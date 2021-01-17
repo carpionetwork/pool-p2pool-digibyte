@@ -10,7 +10,7 @@
 		
 		Example digibyted startup: (./digibyted /opt/blockchain/digibyte/skein/.digibyte)
 		
-`Contents of digibyte.conf:`
+* `Contents of digibyte.conf:`
 
 		server=1
 		rpcuser=USERNAME
